@@ -63,7 +63,7 @@ function update_header() {
 }
 
 $(document).ready(function() {
-  sections_color = document.getElementsByClassName("Section")[0];
+  sections_color = document.getElementsByClassName("section")[0];
   update_header();
 
   $(window).scroll(function() {
