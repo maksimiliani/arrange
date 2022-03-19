@@ -41,7 +41,7 @@ function update_header() {
       $('.nav-link').removeClass('night');
       $('.dropdown-toggle').removeClass('night');
       $('.topnav-button').removeClass('night');
-      $('.topnav-button').addClass('white');
+      $('.wrappernav').addClass('white');
     }
   } else {
     if (!header_transparent) {
@@ -57,7 +57,7 @@ function update_header() {
         $('.dropdown-toggle').removeClass('night');
         $('.topnav-button').removeClass('night');
       }
-      $('.topnav-button').removeClass('white');
+      $('.wrappernav').removeClass('white');
     }
   }
 }
