@@ -1,5 +1,3 @@
-$('head').append('<link rel="stylesheet" type="text/css" href="../styles.css">');
-
 var sections_color;
 var header_transparent;
 
