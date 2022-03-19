@@ -46,7 +46,7 @@ function update_header() {
   } else {
     if (!header_transparent) {
       header_transparent = true;
-      if (isNight(header_color) {
+      if (isNight(header_color)) {
         $('.logo .image').addClass('night');
         $('.nav-link').addClass('night');
         $('.dropdown-toggle').addClass('night');
