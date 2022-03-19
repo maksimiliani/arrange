@@ -60,6 +60,14 @@ function update_header() {
       $('.wrappernav').removeClass('white');
     }
   }
+
+  if (screen.width < 990) {
+    $('.logo .image').removeClass('night');
+    $('.nav-link').removeClass('night');
+    $('.dropdown-toggle').removeClass('night');
+    $('.topnav-button').removeClass('night');
+    $('.wrappernav').addClass('white');
+  }
 }
 
 $(document).ready(function() {
