@@ -1,3 +1,5 @@
+$('head').append('<link rel="stylesheet" type="text/css" href="../crosspage-style.css">');
+
 var sections_color;
 var header_transparent;
 
@@ -41,7 +43,7 @@ function update_header() {
       $('.nav-link').removeClass('night');
       $('.dropdown-toggle').removeClass('night');
       $('.topnav-button').removeClass('night');
-      $('.menu-button').addClass('night');
+      $('.menu-button').removeClass('night');
       $('.wrappernav').addClass('white');
     }
   } else {
