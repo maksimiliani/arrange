@@ -64,6 +64,7 @@ function update_header() {
 
 $(document).ready(function() {
   sections_color = document.getElementsByClassName("section")[0];
+  if (window.scrollY > 119) { header_transparent = true; } else { header_transparent = false; }
   update_header();
 
   $(window).scroll(function() {
