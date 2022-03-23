@@ -28,8 +28,8 @@ var accordion = (function(){
       }
 
       // reveal the active accordion bodies
-      $('.accordion-item.active').find('> .accordion-answer').show();
       $('.accordion-item').find('> .accordion-answer').hide();
+      $('.accordion-item.active').find('> .accordion-answer').show();
     },
     toggle: function($this) {
 
