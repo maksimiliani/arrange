@@ -10,7 +10,7 @@ var accordion = (function(){
     speed: 400,
 
     // close all other accordion items if true
-    oneOpen: false,
+    oneOpen: true,
   };
 
   return {
@@ -48,5 +48,5 @@ var accordion = (function(){
 })();
 
 $(document).ready(function(){
-  accordion.init({ speed: 300, oneOpen: false });
+  accordion.init({ speed: 300, oneOpen: true });
 });
