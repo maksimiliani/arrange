@@ -48,5 +48,5 @@ var accordion = (function(){
 })();
 
 $(document).ready(function(){
-  accordion.init({ speed: 300, oneOpen: true });
+  accordion.init({ speed: 300, oneOpen: false });
 });
