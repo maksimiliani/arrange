@@ -37,11 +37,11 @@ function update_header() {
   if (window.scrollY > 119) {
     if (header_transparent) {
       header_transparent = false;
-      $('.logo .image').removeClass('night');
+      /*$('.logo .image').removeClass('night');
       $('.nav-link').removeClass('night');
       $('.dropdown-toggle').removeClass('night');
       $('.topnav-button').removeClass('night');
-      $('.menu-button').removeClass('night');
+      $('.menu-button').removeClass('night');*/
       $('.wrappernav').addClass('white');
     }
   } else {
