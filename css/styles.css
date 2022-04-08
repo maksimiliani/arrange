@@ -4,3 +4,5 @@
   background-repeat: no-repeat;
   background-size: auto;
 }
+
+a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on, 'liga' off, 'calt' off;}
