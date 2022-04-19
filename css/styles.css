@@ -6,4 +6,4 @@
 }
 
 a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on, 'liga' off, 'calt' off;}
-a.clear_font_style {font-feature-settings: 'ss02' off, 'ss03' off, 'dnom' off, 'numr' off, 'ss01' off, 'liga' off, 'calt' off;}
+a.clear_font_style {font-feature-settings: 'ss02' off, 'ss03' off, 'dnom' off, 'numr' off, 'ss01' off, 'liga' on, 'calt' on !important;}
