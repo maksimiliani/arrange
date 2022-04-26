@@ -15,6 +15,6 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 .wg-drop.country-selector .wgcurrent::after {height: 40px;}
 
 @media only screen and (max-width: 990px) {
-  .wg-drop.country-selector a {color: rgb(43, 43, 52); height: 52px;}
-  .wg-drop.country-selector .wgcurrent::after {height: 54px;}
+  .wg-drop.country-selector a {height: 52px !important;}
+  .wg-drop.country-selector .wgcurrent::after {height: 54px !important;}
 }
