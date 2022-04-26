@@ -10,11 +10,11 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 
 .weglot-container {margin-left: 16px; cursor: pointer;}
 .wg-drop.country-selector .wgcurrent {border: 0px !important; background-color: rgba(43, 43, 52, 0.1) !important; border-radius: 4px;}
-.country-selector a {color: rgb(43, 43, 52); height: 40px;}
-.country-selector a:hover {color: rgb(43, 43, 52) !important;}
+.wg-drop.country-selector a {color: rgb(43, 43, 52); height: 40px;}
+.wg-drop.country-selector a:hover {color: rgb(43, 43, 52) !important;}
 .wg-drop.country-selector .wgcurrent::after {height: 40px;}
 
 @media only screen and (max-width: 990px) {
-  .country-selector a {color: rgb(43, 43, 52); height: 52px;}
+  .wg-drop.country-selector a {color: rgb(43, 43, 52); height: 52px;}
   .wg-drop.country-selector .wgcurrent::after {height: 54px;}
 }
