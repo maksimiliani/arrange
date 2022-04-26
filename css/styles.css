@@ -8,6 +8,7 @@
 a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on, 'liga' off, 'calt' off;}
 .clear_font_style {font-feature-settings: 'ss02' off, 'ss03' off, 'dnom' off, 'numr' off, 'ss01' off, 'liga' on, 'calt' on !important;}
 
-.weglot-container {margin-right: 16px;}
-.wg-drop.country-selector .wgcurrent {border: 0px !important; background-color: rgba(43, 43, 52, 0.1) !important;}
+.weglot-container {margin-right: 16px; cursor: pointer;}
+.wg-drop.country-selector .wgcurrent {border: 0px !important; background-color: rgba(43, 43, 52, 0.1) !important; border-radius: 4px;}
 .wg-drop.country-selector a {color: rgb(43, 43, 52);}
+.country-selector a:hover {color: rgb(43, 43, 52) !important;}
