@@ -8,9 +8,9 @@
 a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on, 'liga' off, 'calt' off;}
 .clear_font_style {font-feature-settings: 'ss02' off, 'ss03' off, 'dnom' off, 'numr' off, 'ss01' off, 'liga' on, 'calt' on !important;}
 
-.weglot-container {margin-left: 16px; cursor: pointer;}
+.weglot-container {margin-right: 16px; cursor: pointer;}
 .wg-drop.country-selector .wgcurrent {border: 0px !important; background-color: rgba(43, 43, 52, 0.1) !important; border-radius: 4px;}
-.wg-drop.country-selector a {color: rgb(43, 43, 52); height: 40px;}
+.wg-drop.country-selector a {color: rgb(43, 43, 52); height: 38px !important;}
 .wg-drop.country-selector a:hover {color: rgb(43, 43, 52) !important;}
 .wg-drop.country-selector .wgcurrent::after {height: 40px;}
 .wg-drop.country-selector ul {background-color: rgba(43, 43, 52, 0.05) !important; border-radius: 4px; margin-top: 4px; border: 0px !important;}
@@ -21,6 +21,7 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 }
 
 @media only screen and (max-width: 480px) {
+  .weglot-container {margin-right: 0px;}
   .country-selector .wg-li {min-width: 50px;}
   .wg-drop.country-selector a {padding-right: 10px !important; justify-content: center;}
   .wg-drop.country-selector .wgcurrent::after {display: none !important;}
