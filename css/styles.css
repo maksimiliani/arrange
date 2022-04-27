@@ -13,7 +13,7 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 .wg-drop.country-selector a {color: rgb(43, 43, 52); height: 40px;}
 .wg-drop.country-selector a:hover {color: rgb(43, 43, 52) !important;}
 .wg-drop.country-selector .wgcurrent::after {height: 40px;}
-.wg-drop.country-selector ul {background-color: rgba(43, 43, 52, 0.05) !important; border-radius: 4px; margin-top: 4px; border: 0px;}
+.wg-drop.country-selector ul {background-color: rgba(43, 43, 52, 0.05) !important; border-radius: 4px; margin-top: 4px; border: 0px !important;}
 
 @media only screen and (max-width: 990px) {
   .wg-drop.country-selector a {height: 52px !important;}
@@ -21,7 +21,7 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 }
 
 @media only screen and (max-width: 480px) {
-  .country-selector .wg-li {max-width: 50px;}
+  .country-selector .wg-li {min-width: 50px;}
   .wg-drop.country-selector a {padding-right: 10px !important; justify-content: center;}
   .wg-drop.country-selector .wgcurrent::after {display: none !important;}
   .wg-drop.country-selector :not(.wgcurrent) a {width: 100%;}
