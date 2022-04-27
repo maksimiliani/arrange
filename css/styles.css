@@ -20,6 +20,8 @@ a {font-feature-settings: 'ss02' on, 'ss03' on, 'dnom' on, 'numr' on, 'ss01' on,
 @media only screen and (max-width: 990px) {
   .wg-drop.country-selector a {height: 52px !important;}
   .wg-drop.country-selector .wgcurrent::after {height: 54px !important;}
+  .weglot-container.night .wg-drop.country-selector a {height: 52px !important;}
+  .weglot-container.night .wg-drop.country-selector .wgcurrent::after {height: 54px !important;}
 }
 
 @media only screen and (max-width: 480px) {
