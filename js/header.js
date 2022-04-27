@@ -53,12 +53,14 @@ function update_header() {
         $('.dropdown-toggle').addClass('night');
         $('.topnav-button').addClass('night');
         $('.menu-button').addClass('night');
+        $('.weglot-container').addClass('night');
       } else {
         $('.logo .image').removeClass('night');
         $('.nav-link').removeClass('night');
         $('.dropdown-toggle').removeClass('night');
         $('.topnav-button').removeClass('night');
         $('.menu-button').removeClass('night');
+        $('.weglot-container').removeClass('night');
       }
       $('.wrappernav').removeClass('white');
     }
